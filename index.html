@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Image Converter</title>
+    <link rel="stylesheet" href="style.css">
+   
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <h2>IMAGE CONVERTER</h2>
+        </div>
+        <div class="pages">
+            <h3>HOME</h3>
+            <h3>ABOUT</h3>
+            <h3>CONTACT</h3>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="uploadsection">
+            <label for="upload">Upload here:</label>
+            <input type="file" id="upload" accept="image/*">
+
+            <label for="format">Convert to:</label>
+            <select id="format">
+                <option value="png">Png</option>
+                <option value="jpeg">Jpeg</option>
+            </select>
+        </div>
+
+        <div class="button">
+            <button id="convertBtn">Convert Now</button>
+        </div>
+    </div>
+
+
+
+
+    
+    <script src="js/heic2any.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
